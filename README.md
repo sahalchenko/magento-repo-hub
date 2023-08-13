@@ -52,13 +52,9 @@ services:
 5.  Sync       - Sync process between your local ext and remote server (See ./compose/env file)
 
 ## Donations
-If you find it useful and want to invite us for a beer, just click on the donation button. Thanks!
+If you find it useful and want to invite us for a coffe, just click on the donation button. Thanks!
 
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="TXZKTZ4555FH8" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_UA/i/scr/pixel.gif" width="1" height="1" />
-</form>
+[!["Buy Me A Coffee"]](https://www.paypal.com/donate/?hosted_button_id=TXZKTZ4555FH8)
 
 ## License
 
