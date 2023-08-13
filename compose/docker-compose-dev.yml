@@ -1,0 +1,32 @@
+version: "3"
+services:
+  web:
+    container_name: ${LOCAL_URL}
+    build:
+      context: images/nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes: &appvolumes
+      - ssldata:/etc/nginx/certs
+      - appdata:/var/www/html
+    links:
+      - phpfpm
+    depends_on:
+      - phpfpm
+
+  phpfpm:
+    container_name: phpfpm
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse
+    build:
+      context: images/phpfpm
+    env_file:
+      - ./env
+    volumes: *appvolumes
+
+volumes:
+  ssldata:
+  appdata:

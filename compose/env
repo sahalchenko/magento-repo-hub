@@ -1,0 +1,23 @@
+# Your local repository hub. Add variables to your host file
+LOCAL_URL=repo.local
+
+# Add your token before download from git
+GIT_TOKEN=token
+
+# Your remote repository hub url. Prepare web access ssl etc.. Example for hetzner storage box
+REPO_SYNC_URL=https://uXXXXX-sub1.your-storagebox.de
+
+# your ip or domain remote hhub
+REPO_SYNC_IP=uXXXXX-sub1.your-storagebox.de
+
+# custom remote port
+REPO_SYNC_PORT=22
+
+# custom remote username
+REPO_SYNC_USER=uXXXXX-sub1
+
+# custom remote password
+REPO_SYNC_PASS=password
+
+# custom remote path folder
+REPO_SYNC_PATH=/

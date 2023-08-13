@@ -1,0 +1,3 @@
+https://github.com/mageplaza/magento-2-gdpr
+https://github.com/mageplaza/magento-2-product-slider
+https://github.com/mageplaza/magento-2-seo

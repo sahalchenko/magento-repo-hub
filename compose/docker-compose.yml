@@ -1,0 +1,30 @@
+version: "3"
+services:
+  web:
+    container_name: ${LOCAL_URL}
+    image: sahalchenko/repo-nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes: &appvolumes
+      - ssldata:/etc/nginx/certs
+      - appdata:/var/www/html
+    links:
+      - phpfpm
+    depends_on:
+      - phpfpm
+
+  phpfpm:
+    container_name: phpfpm
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse
+    image: sahalchenko/repo-phpfpm:latest
+    env_file:
+      - ./env
+    volumes: *appvolumes
+
+volumes:
+  ssldata:
+  appdata:

@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  web:
+    volumes: &appvolumes
+      ## Host mounts with performance penalty, only put what is necessary here
+      - ../html:/var/www/html:cached
+      - ../templates:/templates
+      - ../upload:/rlib/upload
+  phpfpm:
+    volumes: *appvolumes
