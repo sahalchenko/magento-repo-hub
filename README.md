@@ -12,11 +12,7 @@
 
 ## Setup
 ```bash
-# Create your project directory then go into it:
-mkdir -p ~/repoHub
-cd $_
-
-# Download project and unzip 
+# 1. Download project (unzip) and cd project folder
 
 # Chown permissions 
 chown +x ./magesla.sh
