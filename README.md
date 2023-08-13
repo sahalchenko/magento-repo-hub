@@ -12,7 +12,7 @@
 
 ## Setup
 ```bash
-# 1. Download project (unzip) and cd project folder
+# 1. Download the project (unzip) and cd project folder
 
 # Chown permissions 
 chown +x ./magesla.sh
@@ -31,8 +31,8 @@ chown +x ./magesla.sh
 ```
 #### Select options menu
 
-0.  Exit  - Stop containers and exit project
-1.  Build - Build images --no-cache (only dev mode). You can attache local images for build project
+0.  Exit  - Stop containers and exit the project
+1.  Build - Build images --no-cache (only dev mode). You can attach local images for a build project
 ```
 version: "3"
 services:
@@ -47,14 +47,15 @@ services:
 ```
 
 2.  Start - Run containers before downloads
-3.  Download   - Download repositories process. Select single vendor number or select choice 1 for download all vendor ext
+3.  Download   - Download repositories process. Select a single vendor number or select choice 1 to download all vendor ext
 4.  Report     - Generate report all ext. See ./extension.csv file
 5.  Sync       - Sync process between your local ext and remote server (See ./compose/env file)
 
 ## Donations
-If you find it useful and want to invite us for a coffe, just click on the donation button. Thanks!
+If you find it useful and want to invite us for a beer, just click on the donation button. Thanks!
 
-[!["Buy Me A Coffee"]](https://www.paypal.com/donate/?hosted_button_id=TXZKTZ4555FH8)
+[![Buy Me A Beer](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=TXZKTZ4555FH8)
+
 
 ## License
 
