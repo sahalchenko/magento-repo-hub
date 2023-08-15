@@ -20,10 +20,10 @@ chown +x ./magesla.sh
 
 ## Use
 
-1. before using the script, make a change to the ./compose/env file
-2. make a change to the vendor permissions files located in ./templatees/$vendor/credentials.ini. You can add as many accesses as you want.
-3. upload your modules to the ./upload folder, after running the script, these modules will be added to your repository
-4. in the file ./templatees/github/extensions.txt add a list of available modules on github.
+1. Before using the script, make a change to the ./compose/env file
+2. Make a change to the vendor permissions files located in ./templatees/$vendor/credentials.ini. You can add as many accesses as you want.
+3. Upload your modules to the ./upload folder, after running the script, these modules will be added to your repository
+4. In the file ./templatees/github/extensions.txt add a list of available modules on github.
 
 ```bash
 # Run script
