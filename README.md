@@ -48,7 +48,7 @@ services:
 
 2.  Start - Run containers before downloads
 3.  Download   - Download repositories process. Select a single vendor number or select choice 1 to download all vendor ext
-4.  Report     - Generate report all ext. See ./extension.csv file
+4.  Report     - Generate the report of all ext. See ./extension.csv file
 5.  Sync       - Sync process between your local ext and remote server (See ./compose/env file)
 
 ## Donations
