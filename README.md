@@ -6,7 +6,7 @@
 ## Table of contents
 
 - [Setup](#setup)
-- [Used](#used)
+- [Use](#use)
 - [Donations](#donations)
 - [License](#license)
 
@@ -18,7 +18,7 @@
 chown +x ./magesla.sh
 ```
 
-## Used
+## Use
 
 1. before using the script, make a change to the ./compose/env file
 2. make a change to the vendor permissions files located in ./templatees/$vendor/credentials.ini. You can add as many accesses as you want.
