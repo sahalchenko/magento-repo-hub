@@ -15,7 +15,7 @@
 # 1. Download the project (unzip) and cd project folder
 
 # Chown permissions 
-chown +x ./magesla.sh
+chmod +x ./magesla.sh
 ```
 
 ## Use
